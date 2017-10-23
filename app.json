@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "space-chat",
+    "description": "An empty new project",
+    "slug": "space-chat",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vertoanalytics.hungho",
+      "publishBundlePath": "ios/space-chat/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/space-chat/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "supportsTablet": true,
+      "package": "com.vertoanalytics.hungho"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expc28a0c8fb9374a2ba140f6fcedab9fc2",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.3-sdk22.0.0-6ff28589-3759-4451-8078-a50ac1d04845.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.0.0-sdk22.0.0-5e47bc8c-fd7f-4fd3-b247-de930c83628c.tar.gz"
+    }
+  }
+}
